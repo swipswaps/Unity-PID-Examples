@@ -9,7 +9,7 @@ Currently there are 2 examples:
 ![BalanceRod](https://user-images.githubusercontent.com/40236955/106948157-68454180-673c-11eb-8f9e-be0c2f881709.jpg)
 In this example, there are two motors connected to a rod which can rotate around its center. PID controller on rod controls the system. Motors balance the rod at a desired angle, which can be changed from controller.
 
-This is actually PD controller by default, as there is no difference between motor power or loading, therefore I is not needed.
+This is actually PD controller by default, as there is no difference between motor power or loading, therefore it is not needed.
 
 One can spawn weight balls to change loading, which would change the angle. After the ball leaves rod, rod will balance itself to desired angle. Balls have a default lifespan of 10s which can be changed from editor. 
 
